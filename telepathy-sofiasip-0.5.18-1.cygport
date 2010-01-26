@@ -1,0 +1,10 @@
+DESCRIPTION="Telepathy SIP connection manager"
+HOMEPAGE="http://telepathy.freedesktop.org/wiki/"
+SRC_URI="http://telepathy.freedesktop.org/releases/${PN}/${P}.tar.gz"
+
+PATCH_URI="
+	0.5.18-parallel-make.patch
+	0.5.18-vpath.patch
+"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/telepathy"
