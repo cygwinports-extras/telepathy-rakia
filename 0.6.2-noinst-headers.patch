@@ -1,0 +1,13 @@
+--- origsrc/telepathy-sofiasip-0.6.2/tpsip/Makefile.am	2010-02-15 08:48:48.000000000 -0600
++++ src/telepathy-sofiasip-0.6.2/tpsip/Makefile.am	2010-05-07 01:21:26.207252700 -0500
+@@ -13,9 +13,7 @@ AM_CPPFLAGS = @GLIB_CFLAGS@ @TELEPATHY_G
+ 
+ AM_CFLAGS = $(ERROR_CFLAGS) $(COVERAGE_CFLAGS)
+ 
+-tpsip_includedir = $(includedir)/telepathy-sofiasip-0.6/tpsip
+-
+-tpsip_include_HEADERS = \
++noinst_HEADERS = \
+ 	sofia-decls.h \
+ 	codec-param-formats.h \
+ 	event-target.h \

@@ -3,26 +3,26 @@ telepathy-sofiasip
 A Telepathy connection manager with support for the SIP protocol.
 
 Runtime requirements:
-  cygwin-1.7.1-1
+  cygwin-1.7.5-1
   libdbus-glib_1_2-0.82-1
   libgcc1-4.3.4-3
-  libglib2.0_0-2.22.4-1
+  libglib2.0_0-2.22.4-2
   libsofia-sip-ua0-1.12.10-1
   libsofia-sip-ua-glib3-1.12.10-1
-  libtelepathy-glib0-0.10.0-1
+  libtelepathy-glib0-0.10.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.65-1
   automake1.11-1.11.1-1
-  binutils-2.19.51-1
-  cygport-0.9.80-1
+  binutils-2.20.51-1
+  cygport-0.9.83-1
   gawk-3.1.7-1
   gcc4-core-4.3.4-3
   libtool-2.2.7a-15
   make-3.81-2
   pkg-config-0.23b-10
-  sed-4.1.5-2
+  sed-4.2.1-1
 
 Canonical website:
   http://telepathy.freedesktop.org/wiki/
@@ -33,19 +33,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack telepathy-sofiasip-0.5.18-X-src.tar.bz2
+  unpack telepathy-sofiasip-0.6.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./telepathy-sofiasip-0.5.18-X.cygport all
+  cygport ./telepathy-sofiasip-0.6.2-X.cygport all
 
 This will create:
-  /usr/src/telepathy-sofiasip-0.5.18-X-src.tar.bz2
-  /usr/src/telepathy-sofiasip-0.5.18-X.tar.bz2
+  /usr/src/telepathy-sofiasip-0.6.2-X-src.tar.bz2
+  /usr/src/telepathy-sofiasip-0.6.2-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.6.2-1 -----
+Version bump.
 
 ----- version 0.5.18-1 -----
 Initial release for Cygwin 1.7.
