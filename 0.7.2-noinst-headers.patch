@@ -1,0 +1,13 @@
+--- origsrc/telepathy-rakia-0.7.2/rakia/Makefile.am	2011-07-05 04:28:15.000000000 -0500
++++ src/telepathy-rakia-0.7.2/rakia/Makefile.am	2011-11-20 01:15:53.236127900 -0600
+@@ -13,9 +13,7 @@ AM_CPPFLAGS = @GLIB_CFLAGS@ @TELEPATHY_G
+ 
+ AM_CFLAGS = $(ERROR_CFLAGS) $(COVERAGE_CFLAGS)
+ 
+-rakia_includedir = $(includedir)/telepathy-rakia-0.7/rakia
+-
+-rakia_include_HEADERS = \
++noinst_HEADERS = \
+ 	base-connection.h \
+ 	connection-aliasing.h \
+ 	sofia-decls.h \

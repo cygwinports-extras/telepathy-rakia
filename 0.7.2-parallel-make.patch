@@ -1,0 +1,11 @@
+--- origsrc/telepathy-rakia-0.7.2/src/Makefile.am	2011-09-05 08:53:07.000000000 -0500
++++ src/telepathy-rakia-0.7.2/src/Makefile.am	2011-11-20 01:15:23.322417000 -0600
+@@ -54,7 +54,7 @@ noinst_LTLIBRARIES = librakia-convenienc
+ 	--vtail "      { 0, NULL, NULL }\n    };\n    etype = g_@type@_register_static (\"@EnumName@\", values);\n  }\n  return etype;\n}\n" \
+ 	$< > $@ || rm -f $@
+ 
+-rakia.manager: write-mgr-file
++rakia.manager: write-mgr-file$(EXEEXT)
+ 	if ./write-mgr-file > $@.tmp; then \
+ 		mv -f $@.tmp $@;\
+ 	else \
