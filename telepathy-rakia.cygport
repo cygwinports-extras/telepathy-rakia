@@ -1,0 +1,12 @@
+NAME="telepathy-rakia"
+VERSION=0.7.4
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="Telepathy SIP connection manager"
+DESCRIPTION="A Telepathy connection manager with support for the SIP protocol."
+HOMEPAGE="http://telepathy.freedesktop.org/wiki/"
+SRC_URI="http://telepathy.freedesktop.org/releases/${NAME}/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="
+	0.7.2-parallel-make.patch
+	0.7.2-noinst-headers.patch
+"

@@ -1,4 +1,0 @@
-category: Net
-requires: libdbus-glib_1_2 libglib2.0_0 libsofia-sip-ua0 libsofia-sip-ua-glib3 libtelepathy-glib0
-sdesc: "Telepathy SIP connection manager"
-ldesc: "A Telepathy connection manager with support for the SIP protocol."
